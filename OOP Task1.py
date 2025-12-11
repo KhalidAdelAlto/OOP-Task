@@ -12,7 +12,7 @@ class Car(Vehicle):
     def __init__(self):   # <-- FIXED
         self.brand = "Toyota"
         self.model = "Camry"
-
+# Polymorphism
     def sound(self):
         return "Vroom!"
 
@@ -21,5 +21,6 @@ class Car(Vehicle):
 car = Car()
 print(car.brand, car.model)   # Toyota Camry
 print(car.sound())            # Vroom!
+
 
 
