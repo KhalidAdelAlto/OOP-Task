@@ -1,3 +1,6 @@
+#Khalid Althomali 
+#OOP Practice
+
 class Vehicle:
     def sound(self):
         raise NotImplementedError("Subclasses must implement this")
@@ -16,3 +19,4 @@ class Car(Vehicle):
 car = Car()
 print(car.brand, car.model)   # Toyota Camry
 print(car.sound())            # Vroom!
+
